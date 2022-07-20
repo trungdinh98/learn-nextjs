@@ -14,9 +14,9 @@
 
 .menu {
 	font-weight: 100;
-	background: #000;
-  background-size: cover;
-  background-image: url(https://w0.peakpx.com/wallpaper/474/32/HD-wallpaper-minimal-moon-dark-black-star-red.jpg);
+	background: rgba(0, 0, 0, 0.05);
+  // background-size: cover;
+  // background-image: url(https://w0.peakpx.com/wallpaper/474/32/HD-wallpaper-minimal-moon-dark-black-star-red.jpg);
 	width: 210px;
 	height: 100%;
 	padding-left: 50px;
@@ -65,7 +65,7 @@
 
 					&:hover
 					{
-						color: rgb(87, 248, 222);
+						color: rgb(172, 255, 5);
 					}
 				}
 		}
