@@ -14,6 +14,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header>This is header</header>
+
       <main className={styles.main}>
         <div className={menu.menu}>
           <div className={menu.title}>MENU</div>
@@ -29,8 +31,18 @@ const Home: NextPage = () => {
               </Link>
             </li>
             <li>
+              <Link href="/fortfolio">
+                <a>Fortfolio</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact">
+                <a>Contact Tru</a>
+              </Link>
+            </li>
+            <li>
               <Link href="/posts">
-                <a>Blog Post</a>
+                <a>Blog</a>
               </Link>
             </li>
           </ul>

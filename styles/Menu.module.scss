@@ -14,8 +14,10 @@
 
 .menu {
 	font-weight: 100;
-	background: #efefef;
-	width: 200px;
+	background: #000;
+  background-size: cover;
+  background-image: url(https://w0.peakpx.com/wallpaper/474/32/HD-wallpaper-minimal-moon-dark-black-star-red.jpg);
+	width: 210px;
 	height: 100%;
 	padding-left: 50px;
 	position: fixed;
@@ -35,7 +37,8 @@
 	{
 		top:50%;
 		@include vertical-align(absolute);
-		transform: rotate(270deg);
+		transform: rotate(-0.25turn);
+    transform-origin: 40% 25%;
 		left: 10px;
 		font-weight: 800;
 		font-size: 20px;
@@ -58,6 +61,7 @@
 					color: inherit;
 					@include all-transition(0.3s);
           font-size: 20px;
+          font-weight: 300;
 
 					&:hover
 					{
