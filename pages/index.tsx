@@ -45,23 +45,6 @@ const Home: NextPage = () => {
         </ul>
       </div>
       <header>
-        {/* <div className="inner">
-          <div className="logo">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123024/wwf-logo.png" />
-          </div>
-          <div className="burger"></div>
-          <nav>
-            <a className="active" href="#">
-              Species
-            </a>
-            <a href="#">About Us</a>
-            <a href="#">Our Work</a>
-            <a href="#">Get Involved</a>
-          </nav>
-          <a href="#" className="donate-link">
-            Donate
-          </a>
-        </div> */}
         <div className={headercss.header}>
           <div className={headercss.info}>
             <h4>
